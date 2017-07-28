@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements DuoMenuView.OnMen
         setContentView(R.layout.activity_main);
         mTitles = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.menuOptions)));
 
+        Toast.makeText(this, "Waaduh bapak, Okearinasai", Toast.LENGTH_LONG).show();
         // Initialize the views
         mViewHolder = new ViewHolder();
 
